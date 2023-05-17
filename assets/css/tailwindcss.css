@@ -884,7 +884,8 @@ video {
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-color: #6ec3c0;
+  /* --tw-ring-color: rgba(59, 130, 246, 0.5); */
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
 }
@@ -904,7 +905,8 @@ video {
 
 .text-theme-color{
   --tw-text-opacity: 1;
-  color: rgba(88, 100, 255, var(--tw-text-opacity));
+  color: #6ec3c0;
+  /* color: rgba(88, 100, 255, var(--tw-text-opacity)); */
 }
 
 .text-body-color{
@@ -1101,7 +1103,8 @@ a, button {
 
 .main-btn {
   --tw-bg-opacity: 1;
-  background-color: rgba(88, 100, 255, var(--tw-bg-opacity));
+  background-color: #6ec3c0;
+  /* background-color: rgba(88, 100, 255, var(--tw-bg-opacity)); */
   border-radius: 9999px;
   cursor: pointer;
   display: inline-block;
@@ -1361,7 +1364,8 @@ a, button {
 
 .feature-icon {
   --tw-bg-opacity: 1;
-  background-color: rgba(88, 100, 255, var(--tw-bg-opacity));
+  background-color: #2d2d2e;
+  /* background-color: rgba(88, 100, 255, var(--tw-bg-opacity)); */
   --tw-bg-opacity: 0.1;
   border-radius: 9999px;
   display: flex;
@@ -1372,7 +1376,8 @@ a, button {
   margin: auto;
   margin-bottom: 32px;
   --tw-text-opacity: 1;
-  color: rgba(88, 100, 255, var(--tw-text-opacity));
+  color: #6ec3c0;
+  /* color: rgba(88, 100, 255, var(--tw-text-opacity)); */
   width: 130px;
   font-size: 65px;
 }
