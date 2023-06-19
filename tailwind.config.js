@@ -3,9 +3,11 @@ module.exports = {
     enabled: true,
     content: [
       '*.html',
-      './assets/js/main.js'
+      './assets/js/main.js',
+      "./node_modules/tw-elements/dist/js/**/*.js",
     ]
   },
+  plugins: [require("tw-elements/dist/plugin")],
   darkMode: false, // or 'media' or 'class'
   theme: {
 
@@ -96,5 +98,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require("tw-elements/dist/plugin")
+  ],
 }
