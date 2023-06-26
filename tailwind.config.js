@@ -3,9 +3,11 @@ module.exports = {
     enabled: true,
     content: [
       '*.html',
-      './assets/js/main.js'
+      './assets/js/main.js',
+      "./node_modules/tw-elements/dist/js/**/*.js",
     ]
   },
+  plugins: [require("tw-elements/dist/plugin")],
   darkMode: false, // or 'media' or 'class'
   theme: {
 
@@ -76,9 +78,11 @@ module.exports = {
         "white": "#ffffff",
         "black": "#222",
         "gray": "#F3FDFF",
-        "yellow": "#FDD446",
-        "theme-color": "#5864FF",
-        "border-color": "#ddd",
+        "yellow": "#fee820",
+        "theme-color": "#6ec3c0",
+        // "theme-color": "#5864FF",
+        "border-color": "#fee820",
+        // "border-color": "#ddd",
         "body-color": "#5B657E",
         "heading-color": "#162447",
       },
@@ -94,5 +98,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require("tw-elements/dist/plugin")
+  ],
 }
